@@ -10,15 +10,24 @@ pipeline {
     stages {
 
         stage("build") {
-            echo "building huhu"
+
+            steps {
+                echo "building huhu"
+            }
         }
 
         stage("test") {
-            echo "testing huhu"
+
+            steps {
+                echo "testing huhu"
+            }
         }
 
         stage("deploy") {
-            echo "deploying huhu"
+
+            steps {
+                echo "deploying huhu"
+            }
         }
     }
 }
