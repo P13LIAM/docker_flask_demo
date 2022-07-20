@@ -1,6 +1,11 @@
 pipeline {
 
-    agent any
+    agent {
+
+        node {
+            label "jenkins_agent"
+        }
+    }
 
     stages {
 
